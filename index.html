@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/url.css">
+    <title>Transfer data from one page to other page using url</title>
+</head>
+<body>
+
+<!--div section center the section-->
+<div class="center">
+
+    <h1>Transfering data using url</h1>
+    <!--including form-->
+    <form action ="result.html" method="GET">
+
+        <!--creating input type for entering the text for name-->
+        <label> Name: &nbsp; &nbsp; </label>
+        <input type="text"  id = "name" name="name"><br><br>
+
+        <!--creating input type for entering the text for surname-->
+        <lable> Surname: </lable>
+        <input type="text" id = "surname" name="surname"><br><br>
+
+        <!--input type for submit button-->
+        <input type="submit">
+
+    </form>
+</div>
+
+    <!--javascript link for connection-->
+    <script type="text/javascript" src="js/url.js"></script>
+</body>
+</html>
